@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+/*
+font-family: 'JetBrains Mono', monospace;
+font-family: 'Open Sans', sans-serif;
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #2F2E41;
+  height: 100vh;
+}
+
+.page {
+  margin: auto;
+  padding: 70px 0 0;
+  width: 1092px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+nav > ul {
+  display: flex;
+  gap: 64px;
+}
+
+nav > ul > li {
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+nav > ul > li > a {
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+nav > ul > li > a:hover {
+  color: #00BFA6;
+}
+
+section {
+  margin: 100px 0 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+section > .right {
+  text-align: center;
+  width: 620px;
+}
+
+section > .right > h1 {
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  color: #FFFFFF;
+  margin-bottom: 60px;
+}
+
+section > .right > h1 > span {
+  color: #00BFA6;
+}
+
+section > .right > p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #C2C2C2;
+}
+
+section > .right > p > span {
+  font-weight: 700;
+  color: #00BFA6;
+}
+
+footer {
+  text-align: center;
+}
+
+footer > #line {
+  width: 568px;
+  height: 0;
+  border: 1px solid #00BFA6;
+  margin: 0 auto 27px;
+  opacity: 0.3;
+}
+
+footer > p, a {
+  font-family: 'JetBrains Mono', monospace;
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+footer > p > a {
+  text-decoration: none;
+}
+
+footer > p > a:hover {
+  text-decoration: underline;
+}
+
+#cadeado {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
